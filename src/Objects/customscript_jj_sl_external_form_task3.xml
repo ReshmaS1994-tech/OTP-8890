@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_jj_sl_external_form_task3">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>JJ SL External Custom Record Form Task 3</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/jobinandjismi/OTP-8890/jj_sl_External_Custom_Record_form _and_actions_otp_8890.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_jj_sl_external_form_task3">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole>CUSTOMER_CENTER|EMPLOYEE_CENTER|[scriptid=customrole_jj_sup]|NETSUITE_SUPPORT_CENTER|NETSUITE_SUPPORT_CENTER__BASIC|ONLINE_FORM_USER|PARTNER_CENTER|SHOPPER|VENDOR_CENTER</audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>JJ SL External Custom Record Form Task 3</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>
